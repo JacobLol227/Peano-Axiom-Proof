@@ -1,0 +1,9 @@
+∀m,n∈P: m+s(n)=s(m+n) \\ Definition of Addition in Peano Structure
+∀m∈P: m+s(0)=s(m+0) \\ as 0∈P
+s(0)+s(0)=s(s(0)+0) \\ as s(0)∈P
+
+\\ Then:
+∀m∈P: m+0=m \\ Definition of Addition in Peano Structure
+s(0)+0=s(0) \\ as s(0)∈P
+s(s(0)+0)=s(s(0)) \\ taking the successor on both sides of (2)
+s(0)+s(0)=s(s(0))
